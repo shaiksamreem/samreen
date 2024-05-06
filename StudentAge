@@ -1,0 +1,39 @@
+package pack;
+import java.util.Scanner;
+//import java.util.Arrays;
+public class StudentAge{
+	    public static void main(String[] args) {
+	        Scanner scanner = new Scanner(System.in);
+	        int[] yearsOfBirth = new int[5];
+	        
+	        // Input the year of birth for each student
+	        for (int i = 0; i < 5; i++) {
+	        	System.out.println("enter the year of birth for student"+(i+1)+":");
+	        	yearsOfBirth[i]=scanner.nextInt();
+	        }
+	        	
+	            // Calculate ages and store them in an array
+	            int[] ages = new int[5];
+	            int currentYear = 2024; 
+	            // Assuming current year is 2024
+	            for (int i = 0; i < 5; i++) {
+	                ages[i] = currentYear - yearsOfBirth[i];
+	            }
+	            
+	            // Sort ages array in descending order
+	            //Arrays.sort(ages);
+	            int[] sortedAges = new int[5];
+	            for (int i=0;i< 5; i++) {
+	                sortedAges[i] = ages[4 - i];
+	            }
+	            
+	            // Print ages in descending order
+	            System.out.println("Ages of students in descending order:");
+	            for (int i = 0; i < 5; i++) {
+	            	System.out.println("student"+(i+1)+":"+sortedAges[i]);
+	            }
+
+	        }
+
+}
+
