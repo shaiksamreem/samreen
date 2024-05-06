@@ -1,0 +1,42 @@
+package pack;
+
+public class Employee {
+	//static variables to store the last assigned id
+	private static int nextid=1;
+	private int id;
+	private String name;
+	private String position;
+    public Employee(String name,String position){
+    	this.id=nextid++;
+    	this.name=name;
+    	
+    }
+    //getters and setters
+    public int getid(){
+    	return id;
+    }
+    public String getName(){
+    	return name;
+     }
+    public void setName(String name)
+    {
+    	this.name=name;
+    }
+    public String getPosition(){
+    	return position;
+    	 }
+    
+    public String toString()
+    {
+    	return"Employee id:"+id+"\nName:"+name+"\nposition:"+position;
+    }
+	public static void main(String[] args) {
+		Employee emp1=new Employee("sam","manager");
+		Employee emp2=new Employee("naz","tester");
+		System.out.println(emp1);
+		System.out.println();
+		System.out.println(emp2);
+
+	}
+
+}
