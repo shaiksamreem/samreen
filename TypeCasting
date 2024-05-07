@@ -1,0 +1,21 @@
+package pack;
+
+public class TypeCasting {
+	    public static void main(String[] args) {
+	        // Implicit type casting (Widening Conversion)
+	        int intValue = 10;
+	        double doubleValue = intValue; // Implicitly cast int to double
+	        System.out.println("Implicit type casting (Widening Conversion):");
+	        System.out.println("int value: " + intValue);
+	        System.out.println("double value after implicit casting: " + doubleValue);
+	        
+	        // Explicit type casting (Narrowing Conversion)
+	        double doubleVal = 10.5;
+	        int intVal = (int) doubleVal; // Explicitly cast double to int
+	        System.out.println("\nExplicit type casting (Narrowing Conversion):");
+	        System.out.println("double value: " + doubleVal);
+	        System.out.println("int value after explicit casting: " + intVal);
+
+	}
+
+}
