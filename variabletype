@@ -1,0 +1,31 @@
+package pack;
+
+public class VariablesType{
+	    public static void main(String[] args) {
+	        // Integer data type
+	        int myInteger = 10;
+	        System.out.println("Integer value: " + myInteger);
+	        
+	        // Floating-point data type
+	        float myFloat = 3.14f;
+	        System.out.println("Float value: " + myFloat);
+	        
+	        // Double data type
+	        double myDouble=5.6789;
+	        System.out.println("Double value: " + myDouble);
+	        
+	        // Character data type
+	        char myChar = 'A';
+	        System.out.println("Character value: " + myChar);
+	        
+	        // Boolean data type
+	        boolean myBoolean = true;
+	        System.out.println("Boolean value: " + myBoolean);
+	        
+	        // String data type
+	        String myString = "Hello, World!";
+	        System.out.println("String value: " + myString);
+	    }
+	
+
+}
