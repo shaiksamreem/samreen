@@ -1,0 +1,14 @@
+package pack;
+
+public class ConcatenateStrings {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s1="hello";
+		String s2="world!";
+		String concatenated=s1.concat(s2);
+		System.out.println(concatenated);
+
+	}
+
+}
