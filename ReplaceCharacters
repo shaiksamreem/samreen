@@ -1,0 +1,13 @@
+package pack;
+
+public class ReplaceCharacters {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str="hello world!";
+		String replaceStr=str.replace('l','s');
+		System.out.println(replaceStr);
+
+	}
+
+}
