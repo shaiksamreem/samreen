@@ -1,0 +1,9 @@
+public class SubstringCheck {
+    public static void main(String[] args) {
+        String str = "Java Programming";
+        String subStr = "Programming";
+        boolean containsSubStr = str.contains(subStr);
+        System.out.println(containsSubStr);
+    
+    }
+}
